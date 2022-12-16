@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>A Closer Look at Functions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            margin: 5rem 0;
+            width: 100%;
+        }
+
+        .swiper-slide {
+            width: 25%;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: cornflowerblue;
+            margin: 0 auto;
+        }
+
+        .content {
+            display: none;
+            background-color: #fff;
+            padding: 2rem;
+            box-shadow: 2px 0px 11px 5px rgb(0 0 0 / 20%);
+            border-radius: 8px;
+            margin: 20px 20px 20px -20px;
+        }
+
+        .swiper-slide.swiper-slide-active .content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="profile">
+                        <div class="image"></div>
+                        <h4>Name</h4>
+                    </div>
+                    <div class="content">
+                        <h2>Title1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium obcaecati cum.
+                            Delectus veniam voluptatem excepturi, in iure corporis mollitia?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            centeredSlides: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                1280: {
+                    slidesPerView: 'auto',
+                    spaceBetween: 50
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
